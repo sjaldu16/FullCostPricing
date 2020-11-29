@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0248FD42255F80C1009AEC2E /* About_Me_Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0248FD41255F80C1009AEC2E /* About_Me_Photo.png */; };
+		025890FC255B962B00EE867F /* carpet_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025890FB255B962B00EE867F /* carpet_h_stack.jpg */; };
+		02589101255B963100EE867F /* wood_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02589100255B963100EE867F /* wood_h_stack.jpg */; };
+		02589106255B963500EE867F /* t_shirts_h_stack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02589105255B963500EE867F /* t_shirts_h_stack.jpeg */; };
+		0258910B255B963800EE867F /* cleaning_supplies_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0258910A255B963800EE867F /* cleaning_supplies_h_stack.jpg */; };
+		02589110255B963C00EE867F /* jeans_h_stack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0258910F255B963C00EE867F /* jeans_h_stack.jpeg */; };
+		02589115255B964000EE867F /* wallet_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02589114255B964000EE867F /* wallet_h_stack.jpg */; };
+		0258911A255B9B1400EE867F /* FoodTheRealCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02589119255B9B1400EE867F /* FoodTheRealCostView.swift */; };
+		02589124255BAFE100EE867F /* TheRealDefinitionCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02589123255BAFE100EE867F /* TheRealDefinitionCostView.swift */; };
+		0258912C255BB0DF00EE867F /* WhatICanDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0258912B255BB0DF00EE867F /* WhatICanDoView.swift */; };
+		0293B124255F7C3C00E83206 /* AboutMeFullCostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293B123255F7C3C00E83206 /* AboutMeFullCostPage.swift */; };
+		02B54EE2255B80B200B9495A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54EE1255B80B200B9495A /* AppDelegate.swift */; };
+		02B54EE4255B80B200B9495A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54EE3255B80B200B9495A /* SceneDelegate.swift */; };
+		02B54EE6255B80B200B9495A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54EE5255B80B200B9495A /* ContentView.swift */; };
+		02B54EE8255B80B300B9495A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B54EE7255B80B300B9495A /* Assets.xcassets */; };
+		02B54EEB255B80B300B9495A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B54EEA255B80B300B9495A /* Preview Assets.xcassets */; };
+		02B54EEE255B80B300B9495A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B54EEC255B80B300B9495A /* LaunchScreen.storyboard */; };
+		02B54EF9255B80B300B9495A /* Real_CostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54EF8255B80B300B9495A /* Real_CostTests.swift */; };
+		02B54F04255B80B300B9495A /* Real_CostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54F03255B80B300B9495A /* Real_CostUITests.swift */; };
+		02B54F2A255B874A00B9495A /* OneRealCostScrollFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54F29255B874A00B9495A /* OneRealCostScrollFoodView.swift */; };
+		02B54F32255B881200B9495A /* tomatoe_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02B54F31255B881200B9495A /* tomatoe_h_stack.jpg */; };
+		02B54F3A255B896000B9495A /* rice_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02B54F39255B896000B9495A /* rice_h_stack.jpg */; };
+		02B54F3F255B8A8300B9495A /* meat_h_stack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02B54F3E255B8A8300B9495A /* meat_h_stack.jpg */; };
+		02B54F44255B8CE500B9495A /* OneScrollViewOfFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B54F43255B8CE500B9495A /* OneScrollViewOfFoods.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B54EF5255B80B300B9495A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B54ED6255B80B200B9495A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B54EDD255B80B200B9495A;
+			remoteInfo = "Real Cost";
+		};
+		02B54F00255B80B300B9495A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B54ED6255B80B200B9495A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B54EDD255B80B200B9495A;
+			remoteInfo = "Real Cost";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0248FD41255F80C1009AEC2E /* About_Me_Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About_Me_Photo.png; sourceTree = "<group>"; };
+		025890FB255B962B00EE867F /* carpet_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpet_h_stack.jpg; sourceTree = "<group>"; };
+		02589100255B963100EE867F /* wood_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood_h_stack.jpg; sourceTree = "<group>"; };
+		02589105255B963500EE867F /* t_shirts_h_stack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t_shirts_h_stack.jpeg; sourceTree = "<group>"; };
+		0258910A255B963800EE867F /* cleaning_supplies_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cleaning_supplies_h_stack.jpg; sourceTree = "<group>"; };
+		0258910F255B963C00EE867F /* jeans_h_stack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jeans_h_stack.jpeg; sourceTree = "<group>"; };
+		02589114255B964000EE867F /* wallet_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallet_h_stack.jpg; sourceTree = "<group>"; };
+		02589119255B9B1400EE867F /* FoodTheRealCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTheRealCostView.swift; sourceTree = "<group>"; };
+		02589123255BAFE100EE867F /* TheRealDefinitionCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRealDefinitionCostView.swift; sourceTree = "<group>"; };
+		0258912B255BB0DF00EE867F /* WhatICanDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatICanDoView.swift; sourceTree = "<group>"; };
+		0293B123255F7C3C00E83206 /* AboutMeFullCostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeFullCostPage.swift; sourceTree = "<group>"; };
+		02B54EDE255B80B200B9495A /* Real Cost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Cost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B54EE1255B80B200B9495A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02B54EE3255B80B200B9495A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02B54EE5255B80B200B9495A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02B54EE7255B80B300B9495A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B54EEA255B80B300B9495A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02B54EED255B80B300B9495A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B54EEF255B80B300B9495A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B54EF4255B80B300B9495A /* Real CostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real CostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B54EF8255B80B300B9495A /* Real_CostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_CostTests.swift; sourceTree = "<group>"; };
+		02B54EFA255B80B300B9495A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B54EFF255B80B300B9495A /* Real CostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real CostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B54F03255B80B300B9495A /* Real_CostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_CostUITests.swift; sourceTree = "<group>"; };
+		02B54F05255B80B300B9495A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B54F29255B874A00B9495A /* OneRealCostScrollFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneRealCostScrollFoodView.swift; sourceTree = "<group>"; };
+		02B54F31255B881200B9495A /* tomatoe_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomatoe_h_stack.jpg; sourceTree = "<group>"; };
+		02B54F39255B896000B9495A /* rice_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rice_h_stack.jpg; sourceTree = "<group>"; };
+		02B54F3E255B8A8300B9495A /* meat_h_stack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat_h_stack.jpg; sourceTree = "<group>"; };
+		02B54F43255B8CE500B9495A /* OneScrollViewOfFoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneScrollViewOfFoods.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B54EDB255B80B200B9495A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EF1255B80B300B9495A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EFC255B80B300B9495A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B54ED5255B80B200B9495A = {
+			isa = PBXGroup;
+			children = (
+				02B54EE0255B80B200B9495A /* Real Cost */,
+				02B54EF7255B80B300B9495A /* Real CostTests */,
+				02B54F02255B80B300B9495A /* Real CostUITests */,
+				02B54EDF255B80B200B9495A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B54EDF255B80B200B9495A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B54EDE255B80B200B9495A /* Real Cost.app */,
+				02B54EF4255B80B300B9495A /* Real CostTests.xctest */,
+				02B54EFF255B80B300B9495A /* Real CostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B54EE0255B80B200B9495A /* Real Cost */ = {
+			isa = PBXGroup;
+			children = (
+				02B54EE1255B80B200B9495A /* AppDelegate.swift */,
+				02B54EE3255B80B200B9495A /* SceneDelegate.swift */,
+				02B54EE5255B80B200B9495A /* ContentView.swift */,
+				0293B123255F7C3C00E83206 /* AboutMeFullCostPage.swift */,
+				0258912B255BB0DF00EE867F /* WhatICanDoView.swift */,
+				02589123255BAFE100EE867F /* TheRealDefinitionCostView.swift */,
+				02589119255B9B1400EE867F /* FoodTheRealCostView.swift */,
+				02B54F43255B8CE500B9495A /* OneScrollViewOfFoods.swift */,
+				02B54F29255B874A00B9495A /* OneRealCostScrollFoodView.swift */,
+				02B54F39255B896000B9495A /* rice_h_stack.jpg */,
+				02589100255B963100EE867F /* wood_h_stack.jpg */,
+				025890FB255B962B00EE867F /* carpet_h_stack.jpg */,
+				0248FD41255F80C1009AEC2E /* About_Me_Photo.png */,
+				0258910A255B963800EE867F /* cleaning_supplies_h_stack.jpg */,
+				02B54F3E255B8A8300B9495A /* meat_h_stack.jpg */,
+				02589114255B964000EE867F /* wallet_h_stack.jpg */,
+				0258910F255B963C00EE867F /* jeans_h_stack.jpeg */,
+				02589105255B963500EE867F /* t_shirts_h_stack.jpeg */,
+				02B54F31255B881200B9495A /* tomatoe_h_stack.jpg */,
+				02B54EE7255B80B300B9495A /* Assets.xcassets */,
+				02B54EEC255B80B300B9495A /* LaunchScreen.storyboard */,
+				02B54EEF255B80B300B9495A /* Info.plist */,
+				02B54EE9255B80B300B9495A /* Preview Content */,
+			);
+			path = "Real Cost";
+			sourceTree = "<group>";
+		};
+		02B54EE9255B80B300B9495A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02B54EEA255B80B300B9495A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02B54EF7255B80B300B9495A /* Real CostTests */ = {
+			isa = PBXGroup;
+			children = (
+				02B54EF8255B80B300B9495A /* Real_CostTests.swift */,
+				02B54EFA255B80B300B9495A /* Info.plist */,
+			);
+			path = "Real CostTests";
+			sourceTree = "<group>";
+		};
+		02B54F02255B80B300B9495A /* Real CostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B54F03255B80B300B9495A /* Real_CostUITests.swift */,
+				02B54F05255B80B300B9495A /* Info.plist */,
+			);
+			path = "Real CostUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B54EDD255B80B200B9495A /* Real Cost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B54F08255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real Cost" */;
+			buildPhases = (
+				02B54EDA255B80B200B9495A /* Sources */,
+				02B54EDB255B80B200B9495A /* Frameworks */,
+				02B54EDC255B80B200B9495A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Real Cost";
+			productName = "Real Cost";
+			productReference = 02B54EDE255B80B200B9495A /* Real Cost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B54EF3255B80B300B9495A /* Real CostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B54F0B255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real CostTests" */;
+			buildPhases = (
+				02B54EF0255B80B300B9495A /* Sources */,
+				02B54EF1255B80B300B9495A /* Frameworks */,
+				02B54EF2255B80B300B9495A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B54EF6255B80B300B9495A /* PBXTargetDependency */,
+			);
+			name = "Real CostTests";
+			productName = "Real CostTests";
+			productReference = 02B54EF4255B80B300B9495A /* Real CostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02B54EFE255B80B300B9495A /* Real CostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B54F0E255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real CostUITests" */;
+			buildPhases = (
+				02B54EFB255B80B300B9495A /* Sources */,
+				02B54EFC255B80B300B9495A /* Frameworks */,
+				02B54EFD255B80B300B9495A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B54F01255B80B300B9495A /* PBXTargetDependency */,
+			);
+			name = "Real CostUITests";
+			productName = "Real CostUITests";
+			productReference = 02B54EFF255B80B300B9495A /* Real CostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B54ED6255B80B200B9495A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					02B54EDD255B80B200B9495A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					02B54EF3255B80B300B9495A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 02B54EDD255B80B200B9495A;
+					};
+					02B54EFE255B80B300B9495A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 02B54EDD255B80B200B9495A;
+					};
+				};
+			};
+			buildConfigurationList = 02B54ED9255B80B200B9495A /* Build configuration list for PBXProject "Real Cost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B54ED5255B80B200B9495A;
+			productRefGroup = 02B54EDF255B80B200B9495A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B54EDD255B80B200B9495A /* Real Cost */,
+				02B54EF3255B80B300B9495A /* Real CostTests */,
+				02B54EFE255B80B300B9495A /* Real CostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B54EDC255B80B200B9495A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025890FC255B962B00EE867F /* carpet_h_stack.jpg in Resources */,
+				02B54EEE255B80B300B9495A /* LaunchScreen.storyboard in Resources */,
+				02B54F3A255B896000B9495A /* rice_h_stack.jpg in Resources */,
+				02B54F3F255B8A8300B9495A /* meat_h_stack.jpg in Resources */,
+				02589110255B963C00EE867F /* jeans_h_stack.jpeg in Resources */,
+				02589101255B963100EE867F /* wood_h_stack.jpg in Resources */,
+				02589115255B964000EE867F /* wallet_h_stack.jpg in Resources */,
+				02B54EEB255B80B300B9495A /* Preview Assets.xcassets in Resources */,
+				02589106255B963500EE867F /* t_shirts_h_stack.jpeg in Resources */,
+				02B54EE8255B80B300B9495A /* Assets.xcassets in Resources */,
+				0248FD42255F80C1009AEC2E /* About_Me_Photo.png in Resources */,
+				02B54F32255B881200B9495A /* tomatoe_h_stack.jpg in Resources */,
+				0258910B255B963800EE867F /* cleaning_supplies_h_stack.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EF2255B80B300B9495A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EFD255B80B300B9495A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B54EDA255B80B200B9495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B54EE2255B80B200B9495A /* AppDelegate.swift in Sources */,
+				02B54F44255B8CE500B9495A /* OneScrollViewOfFoods.swift in Sources */,
+				0293B124255F7C3C00E83206 /* AboutMeFullCostPage.swift in Sources */,
+				02B54EE4255B80B200B9495A /* SceneDelegate.swift in Sources */,
+				02589124255BAFE100EE867F /* TheRealDefinitionCostView.swift in Sources */,
+				0258912C255BB0DF00EE867F /* WhatICanDoView.swift in Sources */,
+				0258911A255B9B1400EE867F /* FoodTheRealCostView.swift in Sources */,
+				02B54EE6255B80B200B9495A /* ContentView.swift in Sources */,
+				02B54F2A255B874A00B9495A /* OneRealCostScrollFoodView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EF0255B80B300B9495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B54EF9255B80B300B9495A /* Real_CostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B54EFB255B80B300B9495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B54F04255B80B300B9495A /* Real_CostUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B54EF6255B80B300B9495A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B54EDD255B80B200B9495A /* Real Cost */;
+			targetProxy = 02B54EF5255B80B300B9495A /* PBXContainerItemProxy */;
+		};
+		02B54F01255B80B300B9495A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B54EDD255B80B200B9495A /* Real Cost */;
+			targetProxy = 02B54F00255B80B300B9495A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B54EEC255B80B300B9495A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B54EED255B80B300B9495A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B54F06255B80B300B9495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02B54F07255B80B300B9495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B54F09255B80B300B9495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Real Cost/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VXQ7S6U8T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Real Cost/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Project.Real-Cost1234";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02B54F0A255B80B300B9495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Real Cost/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VXQ7S6U8T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Real Cost/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Project.Real;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02B54F0C255B80B300B9495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3FC37JZ2V;
+				INFOPLIST_FILE = "Real CostTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Project.Real-CostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Cost.app/Real Cost";
+			};
+			name = Debug;
+		};
+		02B54F0D255B80B300B9495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3FC37JZ2V;
+				INFOPLIST_FILE = "Real CostTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Project.Real-CostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Cost.app/Real Cost";
+			};
+			name = Release;
+		};
+		02B54F0F255B80B300B9495A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3FC37JZ2V;
+				INFOPLIST_FILE = "Real CostUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Project.Real-CostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Real Cost";
+			};
+			name = Debug;
+		};
+		02B54F10255B80B300B9495A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3FC37JZ2V;
+				INFOPLIST_FILE = "Real CostUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Project.Real-CostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Real Cost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B54ED9255B80B200B9495A /* Build configuration list for PBXProject "Real Cost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B54F06255B80B300B9495A /* Debug */,
+				02B54F07255B80B300B9495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B54F08255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real Cost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B54F09255B80B300B9495A /* Debug */,
+				02B54F0A255B80B300B9495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B54F0B255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real CostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B54F0C255B80B300B9495A /* Debug */,
+				02B54F0D255B80B300B9495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B54F0E255B80B300B9495A /* Build configuration list for PBXNativeTarget "Real CostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B54F0F255B80B300B9495A /* Debug */,
+				02B54F10255B80B300B9495A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B54ED6255B80B200B9495A /* Project object */;
+}
